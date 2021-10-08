@@ -19,7 +19,7 @@ $(document).ready(function(){
       $("insert").append(txt2);
       $("insert").children("tr").children("td.first").val() = elem.id;
       $("insert").children("tr").children("td.first").next().val() = elem.name;
-      $("insert").children()["tr"].children("td.first").next().next().val() = elem.email;      
+      $("insert").children("tr").children("td.first").next().next().val() = elem.email;      
     });
   });
 
